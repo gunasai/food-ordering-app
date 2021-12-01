@@ -55,7 +55,9 @@ const FiltersContainer = ({
               checked={cuisine.checked}
               onChange={(e) => handleMethodFilter(e, cuisine)}
             />
-            <label htmlFor={`checkbox-${cuisine.id}`}>{cuisine.name}</label>
+            <label htmlFor={`checkbox-${cuisine.id}`}>{`${
+              cuisine.name.charAt(0).toUpperCase() + cuisine.name.slice(1)
+            }`}</label>
           </div>
         ))}
       </div>

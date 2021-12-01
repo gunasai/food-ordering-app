@@ -1,7 +1,7 @@
-import RestaurantsClassContainer from './containers/RestaurantsClassContainer';
+import RestaurantsContainer from './containers/RestaurantsContainer';
 
 function App() {
-  return <RestaurantsClassContainer />;
+  return <RestaurantsContainer />;
 }
 
 export default App;
